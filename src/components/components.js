@@ -1,0 +1,9 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Hero } from "./hero/Hero";
+export { default as Programs } from "./programs/Programs";
+export { default as About } from "./about/About";
+export { default as Title } from "./title/Title";
+export { default as Campus } from "./campus/Campus";
+export { default as Testimonials } from "./testimonials/Testimonials";
+export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";
