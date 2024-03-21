@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         primary: "#08003ab3",
+        primary1: "#000f38",
+        primary2: "#212ea0",
+        primary3: "#676767",
+        primary4: "#ebecfe",
       },
       backgroundImage: {
         Hero: "url(./src/assets/hero.png);",

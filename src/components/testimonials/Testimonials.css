@@ -65,9 +65,19 @@
   color: #212ea0;
 }
 
+.hero-t {
+  width: 100%;
+  min-height: 10vh;
+  background: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* media query */
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .testimonials {
     padding: 0 40px;
   }
@@ -88,7 +98,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .user-info {
     display: block;
     margin-bottom: 10px;

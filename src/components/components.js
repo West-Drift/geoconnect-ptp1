@@ -1,9 +1,9 @@
 export { default as Navbar } from "./navbar/Navbar";
-export { default as Hero } from "./hero/Hero";
-export { default as Programs } from "./programs/Programs";
-export { default as About } from "./about/About";
-export { default as Title } from "./title/Title";
-export { default as Contributers } from "./contributers/Contributers";
-export { default as Testimonials } from "./testimonials/Testimonials";
-export { default as Contact } from "./contact/Contact";
-export { default as Footer } from "./footer/Footer";
+export { default as Hero } from "./Hero";
+export { default as Programs } from "./Programs";
+export { default as About } from "./About";
+export { default as Title } from "./Title";
+export { default as Contributers } from "./Contributers";
+export { default as Testimonials } from "./Testimonials";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
