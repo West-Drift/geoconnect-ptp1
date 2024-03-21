@@ -17,7 +17,7 @@ const Programs = () => {
       <div>
         <Title subTitle="Our PROGRAM" title="What We Offer" />
       </div>
-      <div className="programs container">
+      <div className="programs px-8">
         <div className="program ">
           <img src={program1} alt="" className="program1" />
           <div className="caption">

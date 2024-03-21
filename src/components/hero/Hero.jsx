@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <div className="text-xl">
           <Link className="" to="/get-help">
-            <button className="btn dark-btn hover:bg-primary">
+            <button className="btn dark-btn hover:bg-indigo-400">
               Ask Questions
             </button>
           </Link>

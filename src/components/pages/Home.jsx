@@ -1,28 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Hero,
   Programs,
   About,
-  Campus,
+  Contributers,
   Testimonials,
   Contact,
   Footer,
-  VideoPlayer,
 } from "../components";
 
 const Home = () => {
-  const [playState, setPlayState] = useState(false);
-
   return (
     <>
       <Hero />
       <Programs />
-      <About setPlayState={setPlayState} />
-      <Campus />
+      <About />
+      <Contributers />
       <Testimonials />
       <Contact />
       <Footer />
-      <VideoPlayer playState={playState} setPlayState={setPlayState} />
     </>
   );
 };
