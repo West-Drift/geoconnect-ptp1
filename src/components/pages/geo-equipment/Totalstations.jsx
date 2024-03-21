@@ -3,7 +3,7 @@ import {
   Title,
   Programs,
   About,
-  Campus,
+  Contributers,
   Testimonials,
   Contact,
   Footer,
@@ -17,7 +17,7 @@ const Totalstations = () => {
       </div>
       <Programs />
       <About />
-      <Campus />
+      <Contributers />
       <Testimonials />
       <Contact />
       <Footer />

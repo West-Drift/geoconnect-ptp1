@@ -3,7 +3,7 @@ import {
   Title,
   Programs,
   About,
-  Campus,
+  Contributers,
   Testimonials,
   Contact,
   Footer,
@@ -17,7 +17,7 @@ const Cartographymaterials = () => {
       </div>
       <Programs />
       <About />
-      <Campus />
+      <Contributers />
       <Testimonials />
       <Contact />
       <Footer />

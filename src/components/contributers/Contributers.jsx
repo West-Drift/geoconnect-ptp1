@@ -10,7 +10,7 @@ const Contributers = () => {
       <div>
         <Title subTitle="Gallery" title="Contributers Photos" />
       </div>
-      <div className="campus px-8">
+      <div className="Contributers px-8">
         <div className="gallery">
           <img src={gallery1} alt="" />
           <img src={gallery2} alt="" />

@@ -3,7 +3,7 @@ import {
   Title,
   Programs,
   About,
-  Campus,
+  Contributers,
   Testimonials,
   Contact,
   Footer,
@@ -17,7 +17,7 @@ const Lidarsystems = () => {
       </div>
       <Programs />
       <About />
-      <Campus />
+      <Contributers />
       <Testimonials />
       <Contact />
       <Footer />
