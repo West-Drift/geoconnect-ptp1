@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { links } from "./Mylinks";
 import { Link } from "react-router-dom";
 
-const Navlinks = () => {
+const Navlinks = ({ closeMenu }) => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
 
@@ -12,7 +12,7 @@ const Navlinks = () => {
         <div key={link.name}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-5 flex justify-between items-center md:pr-0 pr-5 group"
+              className="text-white py-5 flex justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -21,9 +21,7 @@ const Navlinks = () => {
               {link.name}
               <span className="text-x1 md:hidden inline">
                 <ion-icon
-                  name={`${
-                    heading === link.name ? "chevron-up" : "chevron-down"
-                  }`}
+                  name={`${open ? "chevron-up" : "chevron-down"}`}
                 ></ion-icon>
               </span>
               <span className="text-x1 md:mt-1 md:ml-2 md:block hidden group-hover:rotate-180 group-hover:m-2">
@@ -35,18 +33,25 @@ const Navlinks = () => {
                 <div className="py-3">
                   <div className="w-4 h-4 left-3 absolute mt-1 bg-white rotate-45"></div>
                 </div>
-                <div className="bg-white p-3.5 grid grid-cols-3 gap-8">
+                <div
+                  className={`text-black bg-white p-3.5 gap-8 rounded-lg ${
+                    link.name === "Geospatial Equipment" ||
+                    link.name === "Resources"
+                      ? "grid grid-cols-2"
+                      : "grid grid-cols-3"
+                  }`}
+                >
                   {link.sublinks.map((mysublinks) => (
-                    <div key={mysublinks.Head}>
+                    <div key={mysublinks.Head} className="space-y-2">
                       <h1 className="text-sm font-semibold">
                         {mysublinks.Head}
                       </h1>
                       {mysublinks.sublink.map((slink) => (
-                        <li
-                          key={slink.name}
-                          className="text-sm text-gray-600 my-2.5"
-                        >
-                          <Link to={slink.link} className="hover:text-black">
+                        <li key={slink.name} className="text-sm text-gray-600">
+                          <Link
+                            to={slink.link}
+                            className="hover:text-purple-600"
+                          >
                             {slink.name}
                           </Link>
                         </li>
@@ -91,7 +96,11 @@ const Navlinks = () => {
                   >
                     {slinks.sublink.map((slink) => (
                       <li key={slink.name} className="py-3 pl-14">
-                        <Link to={slink.link} className="hover:text-primary">
+                        <Link
+                          to={slink.link}
+                          className="hover:text-cyan-400"
+                          onClick={closeMenu}
+                        >
                           {slink.name}
                         </Link>
                       </li>

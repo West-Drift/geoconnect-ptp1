@@ -15,11 +15,11 @@
 
 /* media query */
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .footer {
     display: block;
   }
-  .contact-col {
+  .footer-col {
     padding: 20px;
     text-align: center;
   }

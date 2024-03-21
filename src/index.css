@@ -13,13 +13,20 @@
   font-family: "Outfit", sans-serif;
 }
 
-.bg-purple-gradient {
-  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
-}
-
 .bg--primary {
   background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
     url(./assets/hero.png);
+}
+
+.bg--secondary {
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7));
+}
+
+.bg--secondary-1 {
+  background: linear-gradient(
+    rgba(116, 125, 129, 0.7),
+    rgba(109, 211, 177, 0.7)
+  );
 }
 
 body {
@@ -60,6 +67,22 @@ a {
 .btn.dark-btn {
   background: #212ea0;
   color: #fff;
+}
+
+.btn.white-btn {
+  background: white;
+  color: black;
+}
+
+.dark-nav {
+  background: linear-gradient(rgba(8, 0, 58, 1), rgba(8, 0, 58, 0.9));
+  color: #fff;
+  transition: 0.5s;
+}
+
+.sidebar {
+  background: linear-gradient(rgba(8, 0, 58, 1), rgba(8, 0, 58, 0.9));
+  transition: 0.5s;
 }
 
 .hero-t {

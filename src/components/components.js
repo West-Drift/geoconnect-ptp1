@@ -7,3 +7,4 @@ export { default as Campus } from "./campus/Campus";
 export { default as Testimonials } from "./testimonials/Testimonials";
 export { default as Contact } from "./contact/Contact";
 export { default as Footer } from "./footer/Footer";
+export { default as VideoPlayer } from "./videoplayer/VideoPlayer";

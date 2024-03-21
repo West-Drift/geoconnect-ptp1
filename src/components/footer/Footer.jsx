@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer container">
-      <p>© 2024 GeoConnect. All rights reserved.</p>
+    <div className="footer">
+      <p>@ 2024 GeoConnect. All rights reserved.</p>
       <ul>
         <li>Terms of services</li>
         <li>Privacy policy</li>

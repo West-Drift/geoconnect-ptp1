@@ -122,7 +122,9 @@ const Testimonials = () => {
       </div>
       <div className="hero-t">
         <Link className="" to="/sign-up">
-          <button className="btn dark-btn">Join the Community</button>
+          <button className="btn dark-btn  hover:bg-indigo-500 text-white py-2 px-4 rounded-md mt-6">
+            Join the Community
+          </button>
         </Link>
       </div>
     </>

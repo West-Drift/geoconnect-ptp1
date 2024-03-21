@@ -10,6 +10,13 @@ export default {
         Hero: "url(./src/assets/hero.png);",
       },
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      dxl: "1536px",
+    },
   },
   plugins: [],
 };

@@ -3,21 +3,23 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg--primary bg-cover font-[Poppins] md:bg-top bg-center">
-      <div className="flex flex-col justify-center text-center items-center h-screen">
-        <h1 className=" md:text-5xl text-3xl text-white py-6 font-semibold text-center">
+    <div className="h-screen bg--primary bg-cover flex items-center justify-center md:bg-top bg-center ">
+      <div className="text-white justify-center text-center items-center  mx-auto w-3/4 space-y-8">
+        <h1 className="text-4xl font-bold">
           Bridging Practical Knowledge in Geospatial Engineering
         </h1>
-        <p className="text-white text-4x1 font-sm text-center mt-8">
+        <p className="text-lg">
           This is a Web development project that aims to equip geospatial
           engineers with necessary practical skills set with a focus on the
-          fields of GIS and remote sensing and their related software. <br />
-          This project targets everyone who utilizes geospatial related
-          software, especially students
+          fields of GIS and remote sensing and their related software. This
+          project targets everyone who utilizes geospatial related software,
+          especially students
         </p>
-        <div className="text-xl mt-9">
+        <div className="text-xl">
           <Link className="" to="/get-help">
-            <button className="btn dark-btn">Ask Questions</button>
+            <button className="btn dark-btn hover:bg-primary">
+              Ask Questions
+            </button>
           </Link>
         </div>
       </div>

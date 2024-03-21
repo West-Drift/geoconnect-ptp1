@@ -39,7 +39,7 @@ const Contact = () => {
       <div>
         <Title subTitle="Contact Us" title="Get in Touch" />
       </div>
-      <div className="contact container">
+      <div className="contact">
         <div className="contact-col">
           <h3>
             Send us a message <img src={msgIcon} alt="" />
