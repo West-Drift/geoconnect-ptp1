@@ -33,38 +33,43 @@ const Testimonials = () => {
       <div>
         <Title subTitle="OUR COMMUNITY" title="Message from the Community" />
       </div>
-      <div className="my-20 px-20 relative ">
+      <div className="my-20 mx-auto px-2 sm:px-8 md:px-16 lg:px-28 relative ">
         <img
           src={nextIcon}
           alt=""
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 p-4 w-12 rounded-full cursor-pointer bg-primary2"
+          className="absolute top-1/2 right-0 transform -translate-y-1/2 p-2 ss:p-3 sm:p-4 w-8 ss:w-10 sm:w-12 rounded-full cursor-pointer bg-primary2"
           onClick={slideForward}
         />
         <img
           src={backIcon}
           alt=""
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 p-4 w-12 rounded-full cursor-pointer bg-primary2"
+          className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 ss:p-3 sm:p-4 w-8 ss:w-10 sm:w-12 rounded-full cursor-pointer bg-primary2"
           onClick={slideBackward}
         />
         <div className="overflow-hidden">
           <ul
             ref={slider}
-            className="flex w=200 overflow-x-hidden transition-all duration-500"
+            style={{ width: "200%" }}
+            className="flex overflow-x-hidden transition-all duration-500"
           >
-            <li className="list-none w-1/2 p-5">
-              <div className="shadow-md p-10 rounded-lg text-gray-600 leading-7">
+            <li className="list-none w-1/2 p-5 flex flex-col">
+              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-3 sm:leading-7 flex flex-col flex-grow">
                 <div className="flex items-center mb-5 text-sm">
                   <img
                     src={user1}
                     alt=""
-                    className="w-16 rounded-full mr-2.5 border-4 border-primary2"
+                    className="w-10 ss:w-12 sm:w-16 rounded-full mr-2.5 border-4 border-primary2"
                   />
                   <div>
-                    <h3 className="text-primary2">Clair Bridgit</h3>
-                    <span>GeoConnect, USA</span>
+                    <h3 className="text-xs ss:text-base text-primary2">
+                      Clair Bridgit
+                    </h3>
+                    <span className="text-xs ss:text-base">
+                      GeoConnect, USA
+                    </span>
                   </div>
                 </div>
-                <p>
+                <p className="text-xs ss:text-base">
                   Seamless platform offering a plethora of Geospatial services
                   for all levels. I particularly love how the platform solves
                   the issue of data acquisition and solving software and
@@ -73,19 +78,23 @@ const Testimonials = () => {
               </div>
             </li>
             <li className="list-none w-1/2 p-5">
-              <div className="shadow-md p-10 rounded-lg text-gray-600 leading-7">
+              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-5 sm:leading-7">
                 <div className="flex items-center mb-5 text-sm">
                   <img
                     src={user2}
                     alt=""
-                    className="w-16 rounded-full mr-2.5 border-4 border-primary2"
+                    className="w-10 ss:w-12 sm:w-16 rounded-full mr-2.5 border-4 border-primary2"
                   />
                   <div>
-                    <h3 className="text-primary2">Sanjeer Kumar</h3>
-                    <span>GeoConnect, Kenya</span>
+                    <h3 className="text-xs ss:text-base text-primary2">
+                      Sanjeer Kumar
+                    </h3>
+                    <span className="text-xs ss:text-base">
+                      GeoConnect, Kenya
+                    </span>
                   </div>
                 </div>
-                <p>
+                <p className="text-xs ss:text-base">
                   Seamless platform offering a plethora of Geospatial services
                   for all levels. I particularly love how the platform solves
                   the issue of data acquisition and solving software and
@@ -94,19 +103,23 @@ const Testimonials = () => {
               </div>
             </li>
             <li className="list-none w-1/2 p-5">
-              <div className="shadow-md p-10 rounded-lg text-gray-600 leading-7">
+              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-5 sm:leading-7">
                 <div className="flex items-center mb-5 text-sm">
                   <img
                     src={user3}
                     alt=""
-                    className="w-16 rounded-full mr-2.5 border-4 border-primary2"
+                    className="w-10 ss:w-12 sm:w-16 rounded-full mr-2.5 border-4 border-primary2"
                   />
                   <div>
-                    <h3 className="text-primary2">Becky Campbell</h3>
-                    <span>GeoConnect, Canada</span>
+                    <h3 className="text-xs ss:text-base text-primary2">
+                      Becky Campbell
+                    </h3>
+                    <span className="text-xs ss:text-base">
+                      GeoConnect, Canada
+                    </span>
                   </div>
                 </div>
-                <p>
+                <p className="text-xs ss:text-base">
                   Seamless platform offering a plethora of Geospatial services
                   for all levels. I particularly love how the platform solves
                   the issue of data acquisition and solving software and
@@ -115,19 +128,23 @@ const Testimonials = () => {
               </div>
             </li>
             <li className="list-none w-1/2 p-5">
-              <div className="shadow-md p-10 rounded-lg text-gray-600 leading-7">
+              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-5 sm:leading-7">
                 <div className="flex items-center mb-5 text-sm">
                   <img
                     src={user4}
                     alt=""
-                    className="w-16 rounded-full mr-2.5 border-4 border-primary2"
+                    className="w-10 ss:w-12 sm:w-16 rounded-full mr-2.5 border-4 border-primary2"
                   />
                   <div>
-                    <h3 className="text-primary2">David Burnes</h3>
-                    <span>GeoConnect, Australia</span>
+                    <h3 className="text-xs ss:text-base text-primary2">
+                      David Burnes
+                    </h3>
+                    <span className="text-xs ss:text-base">
+                      GeoConnect, Australia
+                    </span>
                   </div>
                 </div>
-                <p>
+                <p className="text-xs ss:text-base">
                   Seamless platform offering a plethora of Geospatial services
                   for all levels. I particularly love how the platform solves
                   the issue of data acquisition and solving software and

@@ -8,12 +8,12 @@ const Contributers = () => {
       <div>
         <Title subTitle="Gallery" title="Contributers' Photos" />
       </div>
-      <div className="my-20 w-9/10 mx-auto text-center px-8">
-        <div className="flex items-center justify-between mb-10">
-          <img src={gallery1} alt="" className="w-1/4 rounded-lg" />
-          <img src={gallery2} alt="" className="w-1/4 rounded-lg" />
-          <img src={gallery3} alt="" className="w-1/4 rounded-lg" />
-          <img src={gallery4} alt="" className="w-1/4 rounded-lg" />
+      <div className="my-20 w-11/12 mx-auto text-center px-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <img src={gallery1} alt="" className="rounded-lg " />
+          <img src={gallery2} alt="" className="rounded-lg " />
+          <img src={gallery3} alt="" className="rounded-lg " />
+          <img src={gallery4} alt="" className="rounded-lg " />
         </div>
       </div>
     </>
