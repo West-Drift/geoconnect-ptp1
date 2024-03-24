@@ -52,8 +52,8 @@ const Testimonials = () => {
             style={{ width: "200%" }}
             className="flex overflow-x-hidden transition-all duration-500"
           >
-            <li className="list-none w-1/2 p-5 flex flex-col">
-              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-3 sm:leading-7 flex flex-col flex-grow">
+            <li className="list-none w-1/2 p-5 flex flex-col flex-grow">
+              <div className="shadow-md p-4 sm:p-8 rounded-lg text-gray-600 leading-5 sm:leading-7 ">
                 <div className="flex items-center mb-5 text-sm">
                   <img
                     src={user1}
