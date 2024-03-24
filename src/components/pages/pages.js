@@ -1,7 +1,6 @@
 export { default as Home } from "./Home";
 export { default as GetHelp } from "./GetHelp";
-export { default as Search } from "./Search";
-export { default as SignUp } from "./SignUp";
+export { default as SignIn } from "./SignIn";
 export { default as Arcgis } from "./gis-software/Arcgis";
 export { default as Globalmapper } from "./gis-software/Globalmapper";
 export { default as Grassgis } from "./gis-software/Grassgis";

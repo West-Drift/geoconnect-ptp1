@@ -7,3 +7,4 @@ export { default as Contributers } from "./Contributers";
 export { default as Testimonials } from "./Testimonials";
 export { default as Contact } from "./Contact";
 export { default as Footer } from "./Footer";
+export { default as Search } from "./Search";

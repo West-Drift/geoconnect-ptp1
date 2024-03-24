@@ -1,7 +1,7 @@
 import React from "react";
 import { Title, Testimonials, Contact, Footer } from "../components";
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <>
       <div className="h-pgs">
@@ -14,4 +14,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignIn;

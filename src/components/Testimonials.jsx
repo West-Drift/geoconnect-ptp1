@@ -64,9 +64,7 @@ const Testimonials = () => {
                     <h3 className="text-xs ss:text-base text-primary2">
                       Clair Bridgit
                     </h3>
-                    <span className="text-xs ss:text-base">
-                      GeoConnect, USA
-                    </span>
+                    <span className="text-xs ss:text-base">Surveyor, NSGS</span>
                   </div>
                 </div>
                 <p className="text-xs ss:text-base">
@@ -89,9 +87,7 @@ const Testimonials = () => {
                     <h3 className="text-xs ss:text-base text-primary2">
                       Sanjeer Kumar
                     </h3>
-                    <span className="text-xs ss:text-base">
-                      GeoConnect, Kenya
-                    </span>
+                    <span className="text-xs ss:text-base">Student, UoN</span>
                   </div>
                 </div>
                 <p className="text-xs ss:text-base">
@@ -115,7 +111,7 @@ const Testimonials = () => {
                       Becky Campbell
                     </h3>
                     <span className="text-xs ss:text-base">
-                      GeoConnect, Canada
+                      Cartographer, SoK
                     </span>
                   </div>
                 </div>
@@ -140,7 +136,7 @@ const Testimonials = () => {
                       David Burnes
                     </h3>
                     <span className="text-xs ss:text-base">
-                      GeoConnect, Australia
+                      Researcher, Icipe
                     </span>
                   </div>
                 </div>
@@ -156,7 +152,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="w-full min-h-10 bg-transparent text-white flex items-center justify-center">
-        <Link className="" to="/sign-up">
+        <Link className="" to="/sign-in">
           <button className="btn dark-btn  hover:bg-indigo-500">
             Join the Community
           </button>

@@ -8,8 +8,7 @@ import {
   Gvsig,
   Mapinfo,
   Qgis,
-  SignUp,
-  Search,
+  SignIn,
   GetHelp,
   Ecognition,
   Envi,
@@ -109,8 +108,7 @@ const App = () => {
           />
           <Route path="/rs-materials" Component={Rsmaterials} />
           <Route path="/survey-materials" Component={Surveyingmaterials} />
-          <Route path="/sign-up" Component={SignUp} />
-          <Route path="/search" Component={Search} />
+          <Route path="/sign-in" Component={SignIn} />
           <Route path="/get-help" Component={GetHelp} />
         </Routes>
       </Router>
